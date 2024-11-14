@@ -13,12 +13,11 @@ const Main = () => {
     setInput,
     input,
   } = useContext(Context);
-
   return (
     <div className="main">
       <div className="nav">
         <p>Gemini</p>
-        <img src={assets.user_icon} alt="" />
+        <img src={assets.matt_profile} alt="" />
       </div>
       <div className="main-container">
         {!showResult ? (
